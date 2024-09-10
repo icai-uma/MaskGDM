@@ -1,0 +1,23 @@
+{
+    "exp_dir": "<path_project>",
+    "batch_size": 64,
+    "category": "face_256",
+    "debug": false,
+    "dim": [256, 256, 6400],
+    "number_class": 19,
+    "testing_data_number_class": 8,
+    "max_training": 20,
+    "stylegan_ver": "2",
+    "annotation_data_from_w": true,
+    "annotation_mask_path":  "<path_dataset>/celebA_editGAN_train",
+    "testing_path": "",
+    "stylegan_checkpoint": "<path_project_styleGAN>",
+    "use_intermediate_layers": true,
+    "intermediate_layer": "<path_project>/intermediateLayer",
+    "prune_model": false,
+    "percent_perceptron": 0.25,
+    "model_num": 10,
+      "upsample_mode":"bilinear",
+      "optimized_latent_path": {"train":  "<path_project>/training_embedding",
+                              "test":  "" }
+  }
